@@ -1,0 +1,27 @@
+========================================================================
+ Chautauqua County, New York Municipal Boundaries
+------------------------------------------------------------------------
+ https://koordinates.com/layer/109182-chautauqua-county-new-york-municipal-boundaries/
+========================================================================
+From: Chautauqua County, New York
+
+Category: Boundaries & Administration
+
+CRS: NAD83 / New York West (ftUS)
+
+------------------------------------------------------------------------
+ Processing steps applied by Koordinates
+------------------------------------------------------------------------
+
+- imported to Koordinates in Esri JSON format on 23 Jun 2022
+- updated with new data on 21 Nov 2022
+- 3 invalid geometries fixed at import time 
+    (see https://koordinates.com/layer/109182-chautauqua-county-new-york-municipal-boundaries/history/)
+- converted by Koordinates to Shapefile on 06 Dec 2022 (reference #2724209)
+
+====================
+No license specified
+====================
+
+No license was specified for this layer. This could mean default rights under copyright law for your legal jurisdiction may apply. Please check with Koordinates if you're unsure of your right to access and use this layer.
+

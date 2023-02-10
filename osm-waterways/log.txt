@@ -1,0 +1,2 @@
+Warning 6: Normalized/laundered field name: 'admin_level' to 'admin_leve'
+Warning 6: Normalized/laundered field name: 'border_type' to 'border_typ'

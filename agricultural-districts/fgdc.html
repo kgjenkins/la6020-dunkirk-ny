@@ -1,0 +1,939 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Agricultural Districts, Chautauqua County NY, 2022 (FGDC metadata)</title>
+<style type="text/css">
+      a, a:visited { color:#287d37 ; font-weight:bold }
+      body { font-family: "Lato", sans-serif }
+      div { margin:0 ; padding:0 0 0 2em ; text-indent:-2em }
+      em { font-weight:bold ; font-style:italic ; color:#860 }
+      h1 { font-size:150% }
+      h2 { font-size:125% }
+      hr { margin:1em 0 ; clear:both }
+      img.logo { float:right ; margin-right:1em }
+      img.browse { float:right ; margin:1em ; padding:0 ; border:1px solid #888 ; box-shadow:2px 2px 4px #888 }
+      img.browse:hover { box-shadow:2px 2px 12px #888 }
+      pre { font-family:inherit ; margin:0 ; text-indent:0 }
+      table { text-indent:0 ; margin:4px 2em ; border-collapse:collapse ; border:1px solid #ccc }
+      tr:hover > td { background:#f8f8f8 }
+      td tr:hover > td { background:#f0f0f0 }
+      th { color:#6c757d ; border:1px solid #ccc ; padding:4px 1em ; font-style:italic ; font-weight:bold }
+      td { vertical-align:top ; border:1px solid #ccc ; padding:4px 1em }
+      button.toggle { color:#fff ; background:#006080 ; border:none ; border-radius:8px ; padding:2px 0.5em ; margin-left:1em }
+      button.toggle:hover { cursor:pointer }
+      .enum td, .enum th { border:none ! important }
+    </style>
+<script>
+      function toggle(x) {
+        var y = x.nextElementSibling;
+        if (y.style.display === 'none') {
+          y.style.display = 'block';
+        }
+        else {
+          y.style.display = 'none';
+        }
+      }
+    </script>
+</head>
+<body>
+<a href="https://cugir.library.cornell.edu/"><img class="logo" width="275" height="100" alt="CUGIR: Cornell University Geospatial Data Repository" src="https://cugir-data.s3.amazonaws.com/cugir-logo.png"></a><h1>Agricultural Districts, Chautauqua County NY, 2022</h1>
+<p>This is a human-readable view of the <a href="https://cugir-data.s3.amazonaws.com/00/79/53/fgdc.xml"> FGDC XML metadata</a>.</p>
+<ul>
+<li><a href="#idinfo">Identification_Information</a></li>
+<li><a href="#dataqual">Data_Quality_Information</a></li>
+<li><a href="#spdoinfo">Spatial_Data_Organization_Information</a></li>
+<li><a href="#spref">Spatial_Reference_Information</a></li>
+<li><a href="#eainfo">Entity_and_Attribute_Information</a></li>
+<li><a href="#distinfo">Distribution_Information</a></li>
+<li><a href="#distinfo">Distribution_Information</a></li>
+<li><a href="#metainfo">Metadata_Reference_Information</a></li>
+</ul>
+  <a name="idinfo"></a><hr>
+<a href="https://cugir.library.cornell.edu/catalog/cugir-007953" alt="dynamic map"><img class="browse" src="https://cugir-data.s3.amazonaws.com/00/79/53/preview.png" alt="static map preview"></a><h2>Identification_Information</h2>
+<div>
+    <div>
+<em>Citation: </em>
+      <div>
+<em>Citation_Information: </em>
+        <div>
+<em>Originator: </em>Cornell Institute for Resource Information Sciences (Cornell IRIS)</div>
+        <div>
+<em>Originator: </em>NYS Department of Agriculture and Markets</div>
+        <div>
+<em>Publication_Date: </em>20220531</div>
+        <div>
+<em>Title: </em>Agricultural Districts, Chautauqua County NY, 2022</div>
+        <div>
+<em>Geospatial_Data_Presentation_Form: </em>vector digital data</div>
+        <div>
+<em>Series_Information: </em>
+          <div>
+<em>Series_Name: </em>Agricultural Districts (NYS Ag and Markets)</div>
+          <div>
+<em>Issue_Identification: </em>Chautauqua County </div>
+        </div>
+        <div>
+<em>Online_Linkage: </em><a href="https://cugir.library.cornell.edu/catalog/cugir-007953">https://cugir.library.cornell.edu/catalog/cugir-007953</a>
+</div>
+      </div>
+    </div>
+    <div>
+<em>Description: </em>
+      <div>
+<em>Abstract: </em>These GIS files represent geographic boundaries for lands that are under the
+                protection of NYS Agricultural District Law, administered by the New York State
+                Department of Agriculture and Markets. The boundaries are derived from New York
+                State Agricultural District, 1:24,000-scale, maps produced at county agencies. The
+                district boundaries correspond to tax parcel data. District boundaries are joined
+                into a file representing all of the Agricultural Districts within an entire county.
+                Tax parcel detail is not included in this dataset. Road and utility rights-of-way
+                are only included when they are delineated on the original 1:24,000 scale maps. The
+                data files are in ESRI shapefile format.</div>
+      <div>
+<em>Purpose: </em>A Geographic Information System (ArcGIS) file intended to represent the lands
+                within agricultural district. Please note that boundaries may be generalizations;
+                precise information can be obtained from the county or town tax parcel
+                information.</div>
+      <div>
+<em>Supplemental_Information: </em>An Agricultural District is defined by a list of tax parcels, including
+                properties added during the annual open enrollment. The 1:24,000-scale maps are only
+                updated to reflect open enrollment changes at the eight-year renewal of the
+                district. The Agricultural District boundaries are for use in conjunction with NYS
+                geographical data (ex. NYS Department of Transportation (DOT) 7.5' planimetric
+                data). Boundary data is current to certification date of the district map on file at
+                IRIS at the time the digital data was updated. The certification date is noted in
+                the attribute table field called "Certified". Legislation in 2003 allows lands to be
+                added to districts on an annual basis. Annual additions are not typically included
+                in these shapefiles. When they are included, an additional field, “OEadds303b”, is
+                included in the attribute table; dates of the annual additions are listed there.
+                Electronic data provided here may predate newer additions. Refer to the current tax
+                parcel list for each district to confirm the precise agricultural district boundary.
+                For more information about NYS Agricultural Districts, see
+                <a href="https://www.agriculture.ny.gov">https://www.agriculture.ny.gov</a>
+</div>
+    </div>
+    <div>
+<em>Time_Period_of_Content: </em>
+      <div>
+<em>Time_Period_Information: </em>
+        <div>
+<em>Single_Date/Time: </em>
+          <div>
+<em>Calendar_Date: </em>20220531</div>
+        </div>
+      </div>
+      <div>
+<em>Currentness_Reference: </em>Publication date</div>
+    </div>
+    <div>
+<em>Status: </em>
+      <div>
+<em>Progress: </em>Complete</div>
+      <div>
+<em>Maintenance_and_Update_Frequency: </em>Periodically</div>
+    </div>
+    <div>
+<em>Spatial_Domain: </em>
+          <div>
+<em>Bounding_Coordinates: </em>
+            <div>
+<em>West_Bounding_Coordinate: </em>-79.761992</div>
+            <div>
+<em>East_Bounding_Coordinate: </em>-79.059223</div>
+            <div>
+<em>North_Bounding_Coordinate: </em>42.570191</div>
+            <div>
+<em>South_Bounding_Coordinate: </em>41.998412</div>
+          </div>
+        </div>
+    <div>
+<em>Keywords: </em>
+      <div>
+<em>Theme: </em>
+        <div>
+<em>Theme_Keyword_Thesaurus: </em>None</div>
+        <div>
+<em>Theme_Keyword: </em>New York State Agricultural District boundaries</div>
+        <div>
+<em>Theme_Keyword: </em>Agriculture and Markets</div>
+        <div>
+<em>Theme_Keyword: </em>Agricultural Districts Mapping Program</div>
+      </div>
+      <div>
+<em>Theme: </em>
+        <div>
+<em>Theme_Keyword_Thesaurus: </em>ISO 19115 Topic Category</div>
+        <div>
+<em>Theme_Keyword: </em>farming</div>
+        <div>
+<em>Theme_Keyword: </em>planningCadastre</div>
+      </div>
+      <div>
+<em>Theme: </em>
+              <div>
+<em>Theme_Keyword_Thesaurus: </em>CUGIR Category</div>
+              <div>
+<em>Theme_Keyword: </em>agriculture</div>
+<div>
+<em>Theme_Keyword: </em>property</div>
+            </div>
+      <div>
+<em>Place: </em>
+        <div>
+<em>Place_Keyword_Thesaurus: </em>LCSH</div>
+        <div>
+<em>Place_Keyword: </em>Chautuaqua County (N.Y.)</div>
+      </div>
+      <div>
+<em>Place: </em>
+        <div>
+<em>Place_Keyword_Thesaurus: </em>FIPS</div>
+        <div>
+<em>Place_Keyword: </em>36013</div>
+      </div>
+    </div>
+    <div>
+<em>Access_Constraints: </em>none</div>
+    <div>
+<em>Use_Constraints: </em>1) Refer to county tax parcel list of agricultural district properties and current
+            1:24,000-scale district maps in conjunction with annual open enrollment documentation on
+            file for confirmation of precise boundaries. 2) Please acknowledge New York State
+            Agricultural Districts Mapping Program as the source of the data. 3) It is important to
+            check the certification date, found in the attribute table field called "Certified". The
+            district data may have changed since the publication of this digital version. 4) These
+            data are not to be resold in any form.</div>
+    <div>
+<em>Point_of_Contact: </em>
+      <div>
+<em>Contact_Information: </em>
+        <div>
+<em>Contact_Organization_Primary: </em>
+          <div>
+<em>Contact_Organization: </em>Cornell IRIS</div>
+        </div>
+        <div>
+<em>Contact_Address: </em>
+          <div>
+<em>Address_Type: </em>mailing address</div>
+          <div>
+<em>Address: </em>1015 Bradfield Hall</div>
+          <div>
+<em>Address: </em>Cornell University</div>
+          <div>
+<em>City: </em>Ithaca</div>
+          <div>
+<em>State_or_Province: </em>New York</div>
+          <div>
+<em>Postal_Code: </em>14853-1901</div>
+          <div>
+<em>Country: </em>USA</div>
+        </div>
+        <div>
+<em>Contact_Voice_Telephone: </em>607-255-6520 or 607-255-6529</div>
+        <div>
+<em>Contact_Electronic_Mail_Address: </em><a href="mailto:iris@cornell.edu">iris@cornell.edu</a>
+</div>
+      </div>
+    </div>
+    <div>
+<em>Browse_Graphic: </em>
+              <div>
+<em>Browse_Graphic_File_Name: </em><a href="https://cugir-data.s3.amazonaws.com/00/79/53/preview.png">https://cugir-data.s3.amazonaws.com/00/79/53/preview.png</a>
+</div>
+              <div>
+<em>Browse_Graphic_File_Description: </em>preview of the dataset</div>
+              <div>
+<em>Browse_Graphic_File_Type: </em>PNG</div>
+            </div>
+    <div>
+<em>Data_Set_Credit: </em>Cornell IRIS maintains the county produced Agricultural District maps on file
+            under contract with the New York State Department of Agriculture and Markets. In 1996
+            the maps on file at Cornell IRIS (then CLEARS) were scanned at the NYSDEC as the initial
+            step in creating a digital database of Ag District Boundaries.</div>
+    <div>
+<em>Native_Data_Set_Environment: </em>Windows 10, ArcGIS 10</div>
+  </div>
+  <a name="dataqual"></a><hr>
+<h2>Data_Quality_Information</h2>
+<div>
+    <div>
+<em>Attribute_Accuracy: </em>
+      <div>
+<em>Attribute_Accuracy_Report: </em>The attributes were visually compared to original source map title blocks and
+                confirmed against Agriculture Districts profile data provided by the Department of
+                Agriculture and Markets.</div>
+    </div>
+    <div>
+<em>Logical_Consistency_Report: </em>Boundary data reflect Agricultural District boundaries as displayed on 1:24,000-scale
+            maps. When boundaries show areas contained mutually in more than one district in the
+            same county, electronic data reflect this as an overlap. If individual tax parcels are
+            dissolved to form an aggregate boundary, slivers and gaps may be formed by drafting
+            discrepancies. These are visually compared to the map and eliminated when they do not
+            represent intended exclusions. If the map is unclear, the county is contacted to confirm
+            intent. District boundary shapefile data is printed out using DOT planimetric raster
+            data as a base, then proofread against the maps.</div>
+    <div>
+<em>Completeness_Report: </em>County Agricultural District boundaries are complete to the extent that the
+            original map is complete. Tax parcel detail is not included in this dataset.
+            Rights-of-way for roads, railroads and utilities are only included when they are
+            delineated on the original 1:24,000 scale maps. NOTE: The most current and precise
+            boundary of a district should be verified by referring to the tax parcel information at
+            county agencies.</div>
+    <div>
+<em>Positional_Accuracy: </em>
+      <div>
+<em>Horizontal_Positional_Accuracy: </em>
+        <div>
+<em>Horizontal_Positional_Accuracy_Report: </em>Shapefiles are accurate to the quality of the original 1:24000 scale
+                    map.</div>
+      </div>
+    </div>
+    <div>
+<em>Lineage: </em>
+      <div>
+<em>Source_Information: </em>
+        <div>
+<em>Source_Citation: </em>
+          <div>
+<em>Citation_Information: </em>
+            <div>
+<em>Originator: </em>Chautauqua County Planning Department</div>
+            <div>
+<em>Publication_Date: </em>Unknown</div>
+            <div>
+<em>Title: </em>none</div>
+          </div>
+        </div>
+        <div>
+<em>Source_Scale_Denominator: </em>24000</div>
+        <div>
+<em>Type_of_Source_Media: </em>Hard copy on Mylar, vellum or paper; digital on CD-ROM.</div>
+        <div>
+<em>Source_Time_Period_of_Content: </em>
+          <div>
+<em>Time_Period_Information: </em>
+            <div>
+<em>Multiple_Dates/Times: </em>
+              <div>
+<em>Single_Date/Time: </em>
+                <div>
+<em>Calendar_Date: </em>20220503 (consolidated district #1)</div>
+              </div>
+              <div>
+<em>Single_Date/Time: </em>
+                <div>
+<em>Calendar_Date: </em>20220503 (consolidated district #7)</div>
+              </div>
+              <div>
+<em>Single_Date/Time: </em>
+                <div>
+<em>Calendar_Date: </em>20220503 (consolidated district #8)</div>
+              </div>
+              <div>
+<em>Single_Date/Time: </em>
+                <div>
+<em>Calendar_Date: </em>20220503 (consolidated district #10)</div>
+              </div>
+            </div>
+          </div>
+          <div>
+<em>Source_Currentness_Reference: </em>8-year certification date</div>
+        </div>
+        <div>
+<em>Source_Citation_Abbreviation: </em>origmaps</div>
+        <div>
+<em>Source_Contribution: </em>original district boundaries</div>
+      </div>
+      <div>
+<em>Process_Step: </em>
+        <div>
+<em>Process_Description: </em>1) ORIGINAL SCAN PROJECT In 1996, the entire set of NYS Agricultural
+                    District maps in the collection of Cornell IRIS (originally CLEARS) was
+                    converted to digital format. This was done by shipping blueprint copies of the
+                    maps to the NYS DEC for scanning. Digital Line Graph files were returned, which
+                    were converted to ArcInfo Coverages. These coverages represented one map sheet
+                    apiece. Original maps with multiple sheets were represented by multiple
+                    coverages. Coverages were compared to the original maps and edited as necessary
+                    to create an accurate representation of the Ag District boundaries shown on the
+                    maps. After accuracy was confirmed, coverages representing multiple sheets were
+                    merged to create district coverages. Districts were then merged to create county
+                    coverages. Merged districts sometimes created slivers, which were eliminated,
+                    and gaps, which are flagged with district value of zero. Overlaps between
+                    districts also occurred in a few cases. These were flagged with district value
+                    "66". For each coverage, an attribute table was built to record the information
+                    shown on the Cornell IRIS title block of each Ag District hardcopy map. These
+                    tables are further described in the Entity and Attribute Information section of
+                    the metadata.</div>
+        <div>
+<em>Process_Date: </em>19960100 through 20010131</div>
+        <div>
+<em>Process_Contact: </em>
+          <div>
+<em>Contact_Information: </em>
+            <div>
+<em>Contact_Organization_Primary: </em>
+              <div>
+<em>Contact_Organization: </em>Cornell IRIS</div>
+            </div>
+            <div>
+<em>Contact_Address: </em>
+              <div>
+<em>Address_Type: </em>Mailing Address</div>
+              <div>
+<em>Address: </em>1015 Bradfield Hall</div>
+              <div>
+<em>Address: </em>Cornell University</div>
+              <div>
+<em>City: </em>Ithaca</div>
+              <div>
+<em>State_or_Province: </em>New York</div>
+              <div>
+<em>Postal_Code: </em>14853-1901</div>
+              <div>
+<em>Country: </em>USA</div>
+            </div>
+            <div>
+<em>Contact_Voice_Telephone: </em>607-255-6520 or 607-255-6529</div>
+          </div>
+        </div>
+      </div>
+      <div>
+<em>Process_Step: </em>
+        <div>
+<em>Process_Description: </em>2) CONVERSION FROM COVERAGES TO SHAPEFILES: Internal polygons were labeled
+                    zero; coverages were reprojected from UTMz18 NAD27 to UTMz18 NAD83; Coverages
+                    were converted to shapefiles; zero polygons were deleted; attribute table was
+                    modified: deleted fields are AREA, PERIMETER, FILE#, FILE_ID, AGDIST#, DOTQUADS.
+                    Modified fields are DISTCODE and DISTRICT. DISTCODE is 12 characters to
+                    accommodate changing abbreviations -- currently four characters and three digits
+                    to represent a key code for county name and district number. The field DISTRICT
+                    was enlarged to accommodate district numbers up to five digits. Also, DISTCODE,
+                    the key field, was moved to the end of the attribute table columns.</div>
+        <div>
+<em>Process_Date: </em>20080101 through 20080331</div>
+        <div>
+<em>Process_Contact: </em>
+          <div>
+<em>Contact_Information: </em>
+            <div>
+<em>Contact_Organization_Primary: </em>
+              <div>
+<em>Contact_Organization: </em>Cornell IRIS</div>
+            </div>
+            <div>
+<em>Contact_Address: </em>
+              <div>
+<em>Address_Type: </em>Mailing Address</div>
+              <div>
+<em>Address: </em>1015 Bradfield Hall</div>
+              <div>
+<em>Address: </em>Cornell University</div>
+              <div>
+<em>City: </em>Ithaca</div>
+              <div>
+<em>State_or_Province: </em>New York</div>
+              <div>
+<em>Postal_Code: </em>14853-1901</div>
+              <div>
+<em>Country: </em>USA</div>
+            </div>
+            <div>
+<em>Contact_Voice_Telephone: </em>607-255-6520 or 607-255-6529</div>
+          </div>
+        </div>
+      </div>
+      <div>
+<em>Process_Step: </em>
+        <div>
+<em>Process_Description: </em>3) UPDATING COUNTY BOUNDARY DATA: County shapefiles are updated to reflect
+                    modifications that occurred during the eight-year review process. Boundaries are
+                    revised using one or more of the three methods: Tablet digitizing; On-screen
+                    digitizing; Copying boundaries from county-supplied shapefiles. All
+                    modifications are proofread against the original maps to confirm accuracy.
+                    Attributes are updated and checked against the information on the map title
+                    blocks, as well as information on file. If individual tax parcels are dissolved
+                    to form an aggregate boundary, slivers and gaps may be formed by drafting
+                    discrepancies. These are visually compared to the map and eliminated when they
+                    do not represent intended exclusions. Discrepancies between the title block
+                    information and file information are clarified by contacting the county and/or
+                    New York State Department of Agriculture and Markets.</div>
+        <div>
+<em>Process_Date: </em>20210401 through 20220511</div>
+        <div>
+<em>Process_Contact: </em>
+          <div>
+<em>Contact_Information: </em>
+            <div>
+<em>Contact_Organization_Primary: </em>
+              <div>
+<em>Contact_Organization: </em>Cornell IRIS</div>
+            </div>
+            <div>
+<em>Contact_Address: </em>
+              <div>
+<em>Address_Type: </em>mailing address</div>
+              <div>
+<em>Address: </em>1015 Bradfield Hall</div>
+              <div>
+<em>Address: </em>Cornell University</div>
+              <div>
+<em>City: </em>Ithaca</div>
+              <div>
+<em>State_or_Province: </em>New York</div>
+              <div>
+<em>Postal_Code: </em>14853-1901</div>
+              <div>
+<em>Country: </em>USA</div>
+            </div>
+            <div>
+<em>Contact_Voice_Telephone: </em>607-255-6520 or 607-255-6529</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a name="spdoinfo"></a><hr>
+<h2>Spatial_Data_Organization_Information</h2>
+<div>
+        <div>
+<em>Direct_Spatial_Reference_Method: </em>Vector</div>
+        <div>
+<em>Point_and_Vector_Object_Information: </em>
+          <div>
+<em>SDTS_Terms_Description: </em>
+            <div>
+<em>SDTS_Point_and_Vector_Object_Type: </em>Polygon</div>
+            <div>
+<em>Point_and_Vector_Object_Count: </em>1510</div>
+          </div>
+        </div>
+      </div>
+  <a name="spref"></a><hr>
+<h2>Spatial_Reference_Information</h2>
+<div>
+    <div>
+<em>Horizontal_Coordinate_System_Definition: </em>
+      <div>
+<em>Planar: </em>
+        <div>
+<em>Grid_Coordinate_System: </em>
+          <div>
+<em>Grid_Coordinate_System_Name: </em>Universal Transverse Mercator</div>
+          <div>
+<em>Universal_Transverse_Mercator: </em>
+            <div>
+<em>UTM_Zone_Number: </em>18</div>
+            <div>
+<em>Transverse_Mercator: </em>
+              <div>
+<em>Scale_Factor_at_Central_Meridian: </em>0.999600</div>
+              <div>
+<em>Longitude_of_Central_Meridian: </em>-75.000000</div>
+              <div>
+<em>Latitude_of_Projection_Origin: </em>0.000000</div>
+              <div>
+<em>False_Easting: </em>500000.000000</div>
+              <div>
+<em>False_Northing: </em>0.000000</div>
+            </div>
+          </div>
+        </div>
+        <div>
+<em>Planar_Coordinate_Information: </em>
+          <div>
+<em>Planar_Coordinate_Encoding_Method: </em>coordinate pair</div>
+          <div>
+<em>Coordinate_Representation: </em>
+            <div>
+<em>Abscissa_Resolution: </em>0.000001</div>
+            <div>
+<em>Ordinate_Resolution: </em>0.000001</div>
+          </div>
+          <div>
+<em>Planar_Distance_Units: </em>meters</div>
+        </div>
+      </div>
+      <div>
+<em>Geodetic_Model: </em>
+        <div>
+<em>Horizontal_Datum_Name: </em>North American Datum of 1983</div>
+        <div>
+<em>Ellipsoid_Name: </em>Geodetic Reference System 80</div>
+        <div>
+<em>Semi-major_Axis: </em>6378137.000000</div>
+        <div>
+<em>Denominator_of_Flattening_Ratio: </em>298.257222</div>
+      </div>
+    </div>
+  </div>
+  <a name="eainfo"></a><hr>
+<h2>Entity_and_Attribute_Information</h2>
+<div>
+    <div>
+<em>Entity_Type: </em>
+        <div>
+<em>Entity_Type_Label: </em>agricultural district</div>
+        <div>
+<em>Entity_Type_Definition: </em>Agricultural districts are lands that are under the protection of NYS
+                    Agricultural District Law, administered by the New York State Department of
+                    Agriculture and Markets.</div>
+        <div>
+<em>Entity_Type_Definition_Source: </em>Cornell Institute for Resource Information Sciences (Cornell
+                    IRIS)</div>
+      </div>
+<div><em>Attributes:</em></div>
+<table class="attributes">
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Values</th>
+</tr>
+<tr>
+<td>FID</td>
+<td>Internal feature number.</td>
+<td>Sequential unique whole numbers that are automatically generated.</td>
+</tr>
+<tr>
+<td>Shape</td>
+<td>Feature geometry.</td>
+<td>Coordinates defining the features.</td>
+</tr>
+<tr>
+<td>county</td>
+<td>New York State county name</td>
+<td>NYS county names</td>
+</tr>
+<tr>
+<td>district</td>
+<td>the agricultural district number within the county</td>
+<td>positive integers</td>
+</tr>
+<tr>
+<td>creation</td>
+<td>date which the original proposed district became a legal entity</td>
+<td>date string</td>
+</tr>
+<tr>
+<td>certified</td>
+<td>the most recent certified date of approval by the NYS Department of
+                    Agriculture and Markets</td>
+<td>date string</td>
+</tr>
+<tr>
+<td>towns</td>
+<td>New York State towns where district boundaries fall within</td>
+<td>list of NYS town names</td>
+</tr>
+<tr>
+<td>distcode</td>
+<td>keyfield</td>
+<td>a four character abbreviation of the county name with a three digit
+                        district number attached</td>
+</tr>
+</table>
+  </div>
+  <a name="distinfo"></a><hr>
+<h2>Distribution_Information</h2>
+<div>
+        <div>
+<em>Distributor: </em>
+          <div>
+<em>Contact_Information: </em>
+            <div>
+<em>Contact_Organization_Primary: </em>
+              <div>
+<em>Contact_Organization: </em>Albert R. Mann Library</div>
+            </div>
+            <div>
+<em>Contact_Address: </em>
+              <div>
+<em>Address_Type: </em>mailing and physical</div>
+              <div>
+<em>Address: </em>Cornell University</div>
+              <div>
+<em>City: </em>Ithaca</div>
+              <div>
+<em>State_or_Province: </em>New York</div>
+              <div>
+<em>Postal_Code: </em>14853</div>
+            </div>
+            <div>
+<em>Contact_Voice_Telephone: </em>607-255-5406</div>
+            <div>
+<em>Contact_Electronic_Mail_Address: </em><a href="mailto:mann-ref@cornell.edu">mann-ref@cornell.edu</a>
+</div>
+          </div>
+        </div>
+        <div>
+<em>Distribution_Liability: </em>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</div>
+        <div>
+<em>Standard_Order_Process: </em>
+        <div>
+<em>Digital_Form: </em>
+            <div>
+<em>Digital_Transfer_Information: </em>
+              <div>
+<em>Format_Name: </em>Shapefile</div>
+              <div>
+<em>Format_Information_Content: </em>zipped Shapefile</div>
+              <div>
+<em>File_Decompression_Technique: </em>zip</div>
+              <div>
+<em>Transfer_Size: </em>4.69</div>
+            </div>
+            <div>
+<em>Digital_Transfer_Option: </em>
+              <div>
+<em>Online_Option: </em>
+                <div>
+<em>Computer_Contact_Information: </em>
+                  <div>
+<em>Network_Address: </em>
+                    <div>
+<em>Network_Resource_Name: </em><a href="https://cugir-data.s3.amazonaws.com/00/79/53/cugir-007953.zip">https://cugir-data.s3.amazonaws.com/00/79/53/cugir-007953.zip</a>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<div>
+<em>Digital_Form: </em>
+            <div>
+<em>Digital_Transfer_Information: </em>
+              <div>
+<em>Format_Name: </em>metadata</div>
+              <div>
+<em>Format_Information_Content: </em>FGDC XML metadata</div>
+            </div>
+            <div>
+<em>Digital_Transfer_Option: </em>
+              <div>
+<em>Online_Option: </em>
+                <div>
+<em>Computer_Contact_Information: </em>
+                  <div>
+<em>Network_Address: </em>
+                    <div>
+<em>Network_Resource_Name: </em><a href="https://cugir-data.s3.amazonaws.com/00/79/53/fgdc.xml">https://cugir-data.s3.amazonaws.com/00/79/53/fgdc.xml</a>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<div>
+<em>Digital_Form: </em>
+            <div>
+<em>Digital_Transfer_Information: </em>
+              <div>
+<em>Format_Name: </em>HTML metadata</div>
+              <div>
+<em>Format_Information_Content: </em>FGDC HTML metadata</div>
+            </div>
+            <div>
+<em>Digital_Transfer_Option: </em>
+              <div>
+<em>Online_Option: </em>
+                <div>
+<em>Computer_Contact_Information: </em>
+                  <div>
+<em>Network_Address: </em>
+                    <div>
+<em>Network_Resource_Name: </em><a href="https://cugir-data.s3.amazonaws.com/00/79/53/fgdc.html">https://cugir-data.s3.amazonaws.com/00/79/53/fgdc.html</a>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<div>
+<em>Digital_Form: </em>
+            <div>
+<em>Digital_Transfer_Information: </em>
+              <div>
+<em>Format_Name: </em>PDF</div>
+              <div>
+<em>Format_Information_Content: </em>prepared PDF map</div>
+            </div>
+            <div>
+<em>Digital_Transfer_Option: </em>
+              <div>
+<em>Online_Option: </em>
+                <div>
+<em>Computer_Contact_Information: </em>
+                  <div>
+<em>Network_Address: </em>
+                    <div>
+<em>Network_Resource_Name: </em><a href="https://cugir-data.s3.amazonaws.com/00/79/53/agCHAU.pdf">https://cugir-data.s3.amazonaws.com/00/79/53/agCHAU.pdf</a>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<div>
+<em>Digital_Form: </em>
+            <div>
+<em>Digital_Transfer_Information: </em>
+              <div>
+<em>Format_Name: </em>KML</div>
+              <div>
+<em>Format_Information_Content: </em>zipped KML file</div>
+            </div>
+            <div>
+<em>Digital_Transfer_Option: </em>
+              <div>
+<em>Online_Option: </em>
+                <div>
+<em>Computer_Contact_Information: </em>
+                  <div>
+<em>Network_Address: </em>
+                    <div>
+<em>Network_Resource_Name: </em><a href="https://cugir-data.s3.amazonaws.com/00/79/53/agCHAU.kmz">https://cugir-data.s3.amazonaws.com/00/79/53/agCHAU.kmz</a>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<div>
+<em>Digital_Form: </em>
+            <div>
+<em>Digital_Transfer_Information: </em>
+              <div>
+<em>Format_Name: </em>OGC:WMS</div>
+              <div>
+<em>Format_Information_Content: </em>WMS, from GeoServer</div>
+            </div>
+            <div>
+<em>Digital_Transfer_Option: </em>
+              <div>
+<em>Online_Option: </em>
+                <div>
+<em>Computer_Contact_Information: </em>
+                  <div>
+<em>Network_Address: </em>
+                    <div>
+<em>Network_Resource_Name: </em><a href="https://setup.cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007953&amp;bbox=-79.78307507000001,41.98125863,-79.03813993,42.587344370000004&amp;width=256&amp;height=208&amp;srs=EPSG:4326&amp;format=image/png">https://setup.cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007953&amp;bbox=-79.78307507000001,41.98125863,-79.03813993,42.587344370000004&amp;width=256&amp;height=208&amp;srs=EPSG:4326&amp;format=image/png</a>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<div>
+<em>Fees: </em>None</div>
+</div>
+      </div>
+  <a name="distinfo"></a><hr>
+<h2>Distribution_Information</h2>
+<div>
+    <div>
+<em>Distributor: </em>
+      <div>
+<em>Contact_Information: </em>
+        <div>
+<em>Contact_Organization_Primary: </em>
+          <div>
+<em>Contact_Organization: </em>Cornell IRIS</div>
+        </div>
+        <div>
+<em>Contact_Address: </em>
+          <div>
+<em>Address_Type: </em>mailing address</div>
+          <div>
+<em>Address: </em>1015 Bradfield Hall</div>
+          <div>
+<em>Address: </em>Cornell University</div>
+          <div>
+<em>City: </em>Ithaca</div>
+          <div>
+<em>State_or_Province: </em>New York</div>
+          <div>
+<em>Postal_Code: </em>14853-1901</div>
+          <div>
+<em>Country: </em>USA</div>
+        </div>
+        <div>
+<em>Contact_Voice_Telephone: </em>607-255-6520 or 607-255-6529</div>
+        <div>
+<em>Contact_Electronic_Mail_Address: </em><a href="mailto:iris@cornell.edu">iris@cornell.edu</a>
+</div>
+      </div>
+    </div>
+    <div>
+<em>Distribution_Liability: </em>Cornell University provides these geographic data "as is." Cornell University
+            makes no guarantee or warranty concerning the accuracy of information contained in the
+            geographic data. Cornell University further makes no warranty either expressed or
+            implied, regarding the condition of the product or its fitness for any particular
+            purpose. The burden for determining fitness for use lies entirely with the user.
+            Although these files have been processed successfully on computers at Cornell
+            University, no warranty is made by Cornell University regarding the use of these data on
+            any other system, nor does the fact of distribution constitute or imply any such
+            warranty.</div>
+    <div>
+<em>Standard_Order_Process: </em>
+      <div>
+<em>Non-digital_Form: </em>Paper copy</div>
+      <div>
+<em>Fees: </em>call for price</div>
+      <div>
+<em>Ordering_Instructions: </em>call Cornell IRIS 607-255-6520 or 255-6529</div>
+    </div>
+  </div>
+  <a name="metainfo"></a><hr>
+<h2>Metadata_Reference_Information</h2>
+<div>
+      <div>
+<em>Metadata_Date: </em>20220913</div>
+      <div>
+<em>Metadata_Contact: </em>
+        <div>
+<em>Contact_Information: </em>
+          <div>
+<em>Contact_Organization_Primary: </em>
+            <div>
+<em>Contact_Organization: </em>Albert R. Mann Library</div>
+          </div>
+          <div>
+<em>Contact_Address: </em>
+            <div>
+<em>Address_Type: </em>mailing and physical</div>
+            <div>
+<em>Address: </em>Albert R. Mann Library</div>
+            <div>
+<em>City: </em>Ithaca</div>
+            <div>
+<em>State_or_Province: </em>New York</div>
+            <div>
+<em>Postal_Code: </em>14853</div>
+            <div>
+<em>Country: </em>USA</div>
+          </div>
+          <div>
+<em>Contact_Voice_Telephone: </em>607-255-5406</div>
+          <div>
+<em>Contact_Electronic_Mail_Address: </em><a href="mailto:mann-ref@cornell.edu">mann-ref@cornell.edu</a>
+</div>
+        </div>
+      </div>
+      <div>
+<em>Metadata_Standard_Name: </em>FGDC Content Standard for Digital Geospatial Metadata</div>
+      <div>
+<em>Metadata_Standard_Version: </em>FGDC-STD-001-1998</div>
+      <div>
+<em>Metadata_Time_Convention: </em>local time</div>
+    </div>
+</body>
+</html>
